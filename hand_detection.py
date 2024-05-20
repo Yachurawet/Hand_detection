@@ -9,7 +9,7 @@ while True:
     if ret:
         hand, img_out = detector.findHands(frame)
         cv2.imshow('img_out', img_out)
-    if cv2.waitKey(1) == ord('q'):
+    if cv2.waitKey(1) == ord('w'):
         break
 cap.release()
 cv2.destroyAllWindows()  
